@@ -314,6 +314,11 @@ input:checked + .sliderround:before {
             </div>
             
             <div class="section">
+                <div id="map">
+                </div>
+            </div>
+
+            <div class="section">
                 <section class="main-content">
                     <h2>一道圍牆，兩個世界</h2>
                     <p>民生東路四段巷內，台北市隨處可見的五到七樓高華廈住宅群中，有幾棟並不特別華麗大氣、卻由高聳圍牆、濃密樹蔭與監視器所環繞的半新大樓，森嚴的戒備與低調外觀平添了神秘感。</p>
@@ -591,7 +596,7 @@ input:checked + .sliderround:before {
             .attr("y", 17);
         }, 1000);
         
-        /*var svg1 = d3.select("#map").select("svg");
+        var svg1 = d3.select("#map").select("svg");
         g = svg1.append("g");
 
         var title = d3.select("#map").append("div")
@@ -828,7 +833,7 @@ input:checked + .sliderround:before {
                 this.stream.point(point.x, point.y);
             }   
             
-        });*/
+        });
         
         //twnsublatlng.json Village_NLSC_121_1050219 25.0853403,121.4231634
         
